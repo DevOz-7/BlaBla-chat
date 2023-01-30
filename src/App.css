@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .App {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .app-header {
+    text-align: center;
+    background-color: #3b5998;
+    color: white;
+    width: 100%;
+  }
+  
+  .app-container {
+    margin-top: 50px;
+  }
+  
+  .room {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .room label {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .room input {
+    width: 200px;
+    height: 30px;
+    padding: 4px;
+    border: 2px solid #3b5998;
+    border-radius: 6px;
+    font-size: 20px;
+    text-align: center;
+    
+  }
+  .room button {
+    
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    background-color: #3b5998;
+    color: white;
+    cursor: pointer;
+  }
+  .room button + button {
+    
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    background-color: #e53c3c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .center{
+    justify-content: center;
+    align-items: center;
+
+  }
+  #chat-room {
+    background-image: linear-gradient(#40a9ff, #096dd9);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+  }
+  
+  #room-card {
+    position: relative;
+    top: calc(50vh - 144px);
+    left: calc(50vw - 210px);
+    padding-top: 36px;
+    padding-bottom: 66px;
+    width: 420px;
+    text-align: center;
+    background-color: white;
+    border-radius: 22px;
+  }
